@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Optimistic Text,-apple-system,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    background-color: antiquewhite;
+}
+.div1{
+    height: 80%;
+    width: 28%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 8px 8px 50px black;
+}
+.cdiv1{
+    height: 35%;
+    border-radius: 20px;
+    background-color: #f45c5c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cdiv2{
+    height: 65%;
+}
+.ccdiv{
+    border: 2px solid rgb(255, 255, 255);
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.sdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 8%;
+}
+.ndiv{
+    padding-top: 15px;
+}
+.fa-brands{
+    font-size: 30px;
+    cursor: pointer;
+}
+.sdiv2{
+    padding: 15px;
+}
+h4{
+    text-align: center;
+}
+#p1{
+    text-align: center; 
+    font-size: 10px;
+}
+.bdiv{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 5%;
+}
+button{
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: white;
+    color: #f45c5c;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid rgb(207, 160, 160);
+}
+button:hover{
+    background-color: #f45c5c;
+    color: white;
+}
